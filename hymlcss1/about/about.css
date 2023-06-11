@@ -1,0 +1,170 @@
+header{
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.churches{
+    border: 2px solid black;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    margin-left: 100px;
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    color: #000;
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+}
+a#home{
+    color: blanchedalmond;
+}
+a:hover{
+    color: #990000;
+}
+#text{
+    height: 75px;
+}
+.first{
+    position: absolute;
+    top: 16rem;
+    left: 40rem;
+}
+.second{
+    position: absolute;
+    top: 20rem;
+    left: 30rem;
+}
+.button{
+    position: absolute;
+    top: 25rem;
+    left: 45rem;
+    background-color: burlywood;
+    border-color: burlywood;
+    color: #fff;
+    padding: 7px;
+}
+.photo{
+    background-image: url('../../images/church.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    font-size: 25px;
+    font-display: bold;
+    color: #fff;
+}
+#down{
+    text-align: center;
+    margin-top: 50px;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.prayer{
+    text-align: center;
+}
+.image{
+    background-image: url(../../images/food.webp);
+    width: auto;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text{
+    height: 10px;
+}
+.a,.b{
+    font-size: 80px;
+    text-align: center;
+    font-family: cursive;
+    color: #eeb887;
+}
+.b{
+    color: #fff;
+}
+.c{
+   font-size: 70px; 
+   text-align: center;
+}
+.d{
+    text-align: center;
+    font-size: 30px;
+}
+h4{
+    text-align: center;
+}
+.link{
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px;
+}
+.link a{
+    color: #eeb887;
+}
+.food{
+    display: flex;
+    margin-bottom: 30px;
+}
+.image2{
+    background-image: url(../../images/food1.webp);
+    height: 800px;
+    background-repeat: no-repeat;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+}
+.image3{
+    background-image: url(../../images/food2.webp);
+    height: 800px;
+    background-repeat: no-repeat;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+}
+footer{
+    background-color: #000;
+    height: 350px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+.content, .follow{
+    padding-top: 40px;
+}
+.yellow{
+    color: goldenrod;
+}
+.social{
+    /* height: 60px; */
+    color: grey;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    /* gap: 1em; */
+}
+#icon{
+    margin-right: 10px;
+}
+.email{
+    margin: 20px;
+    padding: 5px;
+    font-size: 12px;
+}

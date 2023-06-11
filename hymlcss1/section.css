@@ -1,0 +1,36 @@
+.flex-container{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    height: 150px;
+    width: 150px;
+    border: 15px solid blue;
+    margin: 7px;
+    border-radius: 100%;
+    align-items: center;
+}
+.item:nth-child(1){
+    border-color: blue;
+}
+.item:nth-child(2){
+    border-color: #001c3d;
+}
+.item:nth-child(3){
+    border-color: #a7021d;
+}
+.item:nth-child(4){
+    border-color: yellow;
+    position: relative;
+    top: 80px;
+    right: 30rem;
+}
+.item:nth-child(5){
+    border-color: darkgreen;
+    position: relative;
+    top: 80px;
+    right: 30rem;
+}
+

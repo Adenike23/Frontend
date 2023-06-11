@@ -1,0 +1,25 @@
+
+      body {
+        background-image: url('../../images/a.jpg');
+    display: flex;
+    border-color: #ffc000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-width: 20px;
+    position: absolute;
+    font-size: 27px;
+    border-style: solid;    
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+    margin-left: 600px;
+    margin-top: 180px;
+}
+h6 {
+    width: 600px;
+}
+
+legend{
+    border: 3px solid black;
+}
